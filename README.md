@@ -1,90 +1,107 @@
-# Student Management System - Backend
+# 🎓 Student Management System - Backend
 
-Spring Boot backend for Student Management System with authentication and CRUD operations.
+Spring Boot REST API backend for Student Management System with authentication and student CRUD operations.
 
-## Features
-
-### Authentication
-- User Register API
-- User Login API
-
-### Student Management
-- Add Student
-- Get All Students
-- Update Student
-- Delete Student
-
-### Security
-- Spring Security (basic)
-- CORS enabled
+🔗 Frontend Repository
+https://github.com/shraddhamane6109/student-management-frontend
 
 ---
 
-## Tech Stack
+# 🚀 Features
 
-- Java
-- Spring Boot
-- Spring Data JPA
-- Spring Security
-- MySQL
-- Maven
+## 🔐 Authentication
+
+* User Register API
+* User Login API
+
+## 👨‍🎓 Student Management
+
+* Add Student
+* Get All Students
+* Update Student
+* Delete Student
+* Full CRUD Operations
+
+## 🔒 Security
+
+* Spring Security (Basic)
+* CORS Configuration
+* REST API Protection
 
 ---
 
-## Project Structure
+# 🛠️ Tech Stack
+
+* Java
+* Spring Boot
+* Spring Data JPA
+* Spring Security
+* MySQL
+* Maven
+
+---
+
+# 📁 Project Structure
 
 ```
 src
  ├── controller
  ├── entity
  ├── repository
+ ├── service
  ├── config
  └── StudentManagementApplication.java
 ```
 
 ---
 
-## API Endpoints
+# 🔗 API Endpoints
 
-### Authentication
+## Authentication APIs
 
-Register User
+### Register User
+
 ```
 POST /auth/register
 ```
 
-Login User
+### Login User
+
 ```
 POST /auth/login
 ```
 
 ---
 
-### Student APIs
+## Student APIs
 
-Get All Students
+### Get All Students
+
 ```
 GET /students
 ```
 
-Add Student
+### Add Student
+
 ```
 POST /students
 ```
 
-Update Student
+### Update Student
+
 ```
 PUT /students/{id}
 ```
 
-Delete Student
+### Delete Student
+
 ```
 DELETE /students/{id}
 ```
 
 ---
 
-## Database Configuration
+# 🗄️ Database Configuration
 
 Update `application.properties`
 
@@ -99,25 +116,25 @@ spring.jpa.show-sql=true
 
 ---
 
-## How to Run
+# ▶️ How to Run
 
-### 1. Clone project
+## 1. Clone Repository
 
 ```
-git clone your-repo-link
+git clone https://github.com/shraddhamane6109/student-management-backend.git
 ```
 
-### 2. Open in Eclipse
+## 2. Open in Eclipse
 
-Import as Maven Project
+Import project as **Maven Project**
 
-### 3. Create MySQL Database
+## 3. Create MySQL Database
 
 ```
 CREATE DATABASE studentdb;
 ```
 
-### 4. Run Spring Boot
+## 4. Run Spring Boot Application
 
 Run:
 
@@ -125,7 +142,7 @@ Run:
 StudentManagementApplication.java
 ```
 
-Server runs at:
+Server starts at:
 
 ```
 http://localhost:8080
@@ -133,17 +150,30 @@ http://localhost:8080
 
 ---
 
-## Author
+# 🧪 Test APIs
 
-Shraddha Mane
+You can test APIs using:
+
+* Postman
+* Thunder Client
+* Browser (GET APIs)
 
 ---
 
-## Future Improvements
+# 🔮 Future Improvements
 
-- JWT Authentication
-- Role Based Access
-- Validation
-- Exception Handling
-- Pagination
-- Deployment
+* JWT Authentication
+* Role Based Access (Admin/User)
+* Request Validation
+* Global Exception Handling
+* Pagination & Sorting
+* Docker Deployment
+
+---
+
+# 👩‍💻 Author
+
+Shraddha Mane
+MCA Student (2027)
+Full Stack Developer
+React | Java | Spring Boot | MySQL
