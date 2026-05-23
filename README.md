@@ -174,6 +174,6 @@ You can test APIs using:
 # 👩‍💻 Author
 
 Shraddha Mane
-MCA Student (2027)
+BCA Graduate(2024)
 Full Stack Developer
 React | Java | Spring Boot | MySQL
